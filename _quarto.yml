@@ -17,8 +17,8 @@ website:
         file: index.qmd
       - text: Dataset Details
         menu:
-        - text: "Person 1"
-          href: person1.qmd
+        - text: "Access to Intercity Air, Bus, and Rail Transportation in Rural Areas"
+          href: raf.qmd
         - text: "Person 2"
           href: person2.qmd
       - text: "Comparative Analysis"
