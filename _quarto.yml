@@ -21,6 +21,8 @@ website:
           href: raf.qmd
         - text: "Person 2"
           href: person2.qmd
+        - text: "Anthony Palomba"
+          href: anthonypalomba.qmd
       - text: "Comparative Analysis"
         href: comparison.qmd
 
