@@ -1,21 +1,8 @@
 ---
 title: "Comparitive Analysis"
-author: "Anthony Palomba, Kristian Meza, Rafael Wenslaff"
+author: "Kristian Meza, Rafael Wenslaff, Anthony Palomba"
 format: html
 ---
-
-# NTD Annual Data View - Service (by Mode)
-## Trustworthiness/reputability
-Very reputable. Data comes from a government source (NTD). Many columns are missing a detailed description and use acronyms that are not easily understood without a background in transportation research. There is an “About” section on the NTD website that provides timestamps showing when the data was collected.
-
-## Degree of relevance to research question
-Proxies would be necessary to answer the research question as there are no variables that directly apply to it. The methods of collection are various organizations’ registration with the Department of Transportation, so the data is likely very accurate.
-
-## Ethical soundness
-Unlikely for there to be any bias. It comes from a government source and displays data clearly. The large scale and generic theme of the dataset makes it more unlikely that there is any significant bias.
-
-## Scope
-One row represents the existence of a route serviced by a transportation organization. The data covers the entire mainland USA. Variables include the NTD ID, Agency, Reporter Type, Organization Type, Report Year, City, State, Mode, Mode Name, Type Of Service, and more. There are 46 columns in total.
 
 # GTFS Metro Network
 ## Trustworthiness/reputability
@@ -32,7 +19,7 @@ The dataset covers the Madrid metro network and contains text files that can be 
 
 # Access to Intercity Air, Bus, and Rail Transportation in Rural Areas
 
-## Trustworthiness/reputability:
+## Trustworthiness/reputability
 Data is very reputable. Data collected by the Bureau of Transportation Statistics (a federal agency), whose purpose is to collect, analyze, and share comprehensive data on transportation systems in the US, so there is unlikely to be any biases. A full methodology page is also available, explaining data collection methods, metric definitions, and other sources used.
 
 ## Degree of relevance to research question
@@ -44,4 +31,16 @@ There is little to suggest much bias in this dataset. Given the reputability of 
 ## Scope
 Each row in this dataset represents a county for a specific year, including related data involving population, transportation access, and financial information. There are 25,141 rows in total. This dataset represents rural populations (though certain deductions of urban populations could be determined if needed). While this dataset may not explicitly include the population of everyone in America, it is most relevant to our research question because it includes transportation access across several years with potential correlated data (e.g., financial change, population change). Due to the large number of variables in this dataset, there are many other claims that could be made, such as: how access to one transportation method compares to another, how different income brackets are represented in rural areas, or how age distribution changes over time.
 
+# NTD Annual Data View - Service (by Mode)
+## Trustworthiness/reputability
+Very reputable. Data comes from a government source (NTD). Many columns are missing a detailed description and use acronyms that are not easily understood without a background in transportation research. There is an “About” section on the NTD website that provides timestamps showing when the data was collected.
+
+## Degree of relevance to research question
+Proxies would be necessary to answer the research question as there are no variables that directly apply to it. The methods of collection are various organizations’ registration with the Department of Transportation, so the data is likely very accurate.
+
+## Ethical soundness
+Unlikely for there to be any bias. It comes from a government source and displays data clearly. The large scale and generic theme of the dataset makes it more unlikely that there is any significant bias.
+
+## Scope
+One row represents the existence of a route serviced by a transportation organization. The data covers the entire mainland USA. Variables include the NTD ID, Agency, Reporter Type, Organization Type, Report Year, City, State, Mode, Mode Name, Type Of Service, and more. There are 46 columns in total.
 
