@@ -1,17 +1,101 @@
 [
   {
-    "objectID": "raf.html",
-    "href": "raf.html",
-    "title": "Data Collection Facts Label",
+    "objectID": "analysis.html",
+    "href": "analysis.html",
+    "title": "Comparitive Analysis",
     "section": "",
-    "text": "Data Source Facts Label\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSource Identity\n\n\n\n\n\n\nSource name\n\n\nAccess to Intercity Air, Bus, and Rail Transportation in Rural Areas\n\n\n\n\nDomain/topic\n\n\nPublic Transportation\n\n\n\n\nSource type\n\n\nGovernment Dataset\n\n\n\n\n\n\n\n\n\n\n\nCollection Context\n\n\n\n\n\n\nCollector/producer\n\n\nBureau of Transportation Statistics\n\n\n\n\nOriginal purpose\n\n\nPublic reporting\n\n\n\n\nCollection method\n\n\nGIS analysis using existing data from government and transportation databases\n\n\n\n\nRecord-creation event\n\n\nExistence of a county deemed “rural” by the GIS analysis\n\n\n\n\n\n\n\n\n\n\n\nObservation and Scope\n\n\n\n\n\n\nUnit of observation\n\n\nEach row represents one county and its rural public transporation access\n\n\n\n\nPopulation or objects represented\n\n\nCounties, airports, bus stops, and rail facilities\n\n\n\n\nTime period covered\n\n\n2006, 2012, 2018, and 2021\n\n\n\n\nGeographic area coverage\n\n\nRural block groups in the United States\n\n\n\n\n\n\n\n\n\n\n\nVariables and Data Structure\n\n\n\n\n\n\nMain variables/fields\n\n\nState, County, Land Area, Water Area, Population, Year, % Rural Access to Airport/Bus Stop/Rail Station\n\n\n\n\nData types included\n\n\nLocation, numerical, categorical, date, ID\n\n\n\n\nDirect measurements\n\n\nCounty population, transportation facility location, year\n\n\n\n\nPossible proxy variables\n\n\n% Rural Access to Airport/Bus Stop/Rail Station, Household income, Vehicles per household, Civilian labor force\n\n\n\n\n\n\n\n\n\n\n\nDocumentation\n\n\n\n\n\n\nDocumentation found\n\n\nMethodology, metadata (column descriptions)\n\n\n\n\nStated collection details\n\n\nAirport data gotten from FAA’s enplanement data and BTS’ Office of Airline Administration airport summary; Intercity bus stop data gotten from Greyhound, Amtrak, BTS’ June 2005 Rural Scheduled Intercity Transportation and the U.S. Rural Population report, BTS’ IPCD, and BTS’ Intercity Bus Atlas; Intercity rail facility data gotten from BTS’ Febuary 2011 U.S. Rural Population and Scheduled Intercity Transportation in 2010 report, BTS’ IPCD, BTS’ National Transportation Atlas Database, and Alaska railroad website; Population data gotten from the U.S. Census Bureau and American Community Survey"
+    "text": "Very reputable. Data comes from a government source (NTD). Many columns are missing a detailed description and use acronyms that are not easily understood without a background in transportation research. There is an “About” section on the NTD website that provides timestamps showing when the data was collected.\n\n\n\nProxies would be necessary to answer the research question as there are no variables that directly apply to it. The methods of collection are various organizations’ registration with the Department of Transportation, so the data is likely very accurate.\n\n\n\nUnlikely for there to be any bias. It comes from a government source and displays data clearly. The large scale and generic theme of the dataset makes it more unlikely that there is any significant bias.\n\n\n\nOne row represents the existence of a route serviced by a transportation organization. The data covers the entire mainland USA. Variables include the NTD ID, Agency, Reporter Type, Organization Type, Report Year, City, State, Mode, Mode Name, Type Of Service, and more. There are 46 columns in total."
   },
   {
-    "objectID": "anthonypalomba.html",
-    "href": "anthonypalomba.html",
+    "objectID": "analysis.html#trustworthinessreputability",
+    "href": "analysis.html#trustworthinessreputability",
+    "title": "Comparitive Analysis",
+    "section": "",
+    "text": "Very reputable. Data comes from a government source (NTD). Many columns are missing a detailed description and use acronyms that are not easily understood without a background in transportation research. There is an “About” section on the NTD website that provides timestamps showing when the data was collected."
+  },
+  {
+    "objectID": "analysis.html#degree-of-relevance-to-research-question",
+    "href": "analysis.html#degree-of-relevance-to-research-question",
+    "title": "Comparitive Analysis",
+    "section": "",
+    "text": "Proxies would be necessary to answer the research question as there are no variables that directly apply to it. The methods of collection are various organizations’ registration with the Department of Transportation, so the data is likely very accurate."
+  },
+  {
+    "objectID": "analysis.html#ethical-soundness",
+    "href": "analysis.html#ethical-soundness",
+    "title": "Comparitive Analysis",
+    "section": "",
+    "text": "Unlikely for there to be any bias. It comes from a government source and displays data clearly. The large scale and generic theme of the dataset makes it more unlikely that there is any significant bias."
+  },
+  {
+    "objectID": "analysis.html#scope",
+    "href": "analysis.html#scope",
+    "title": "Comparitive Analysis",
+    "section": "",
+    "text": "One row represents the existence of a route serviced by a transportation organization. The data covers the entire mainland USA. Variables include the NTD ID, Agency, Reporter Type, Organization Type, Report Year, City, State, Mode, Mode Name, Type Of Service, and more. There are 46 columns in total."
+  },
+  {
+    "objectID": "analysis.html#trustworthinessreputability-1",
+    "href": "analysis.html#trustworthinessreputability-1",
+    "title": "Comparitive Analysis",
+    "section": "Trustworthiness/reputability",
+    "text": "Trustworthiness/reputability\nThe data was collected by the CRTM, an autonomous body created by the Spanish government which is responsible for coordinating the public transportation services within Madrid. As the dataset was provided directly by the Spanish government, it should be considered reputable and trustworthy."
+  },
+  {
+    "objectID": "analysis.html#degree-of-relevance-to-research-question-1",
+    "href": "analysis.html#degree-of-relevance-to-research-question-1",
+    "title": "Comparitive Analysis",
+    "section": "Degree of relevance to research question",
+    "text": "Degree of relevance to research question\nIt provides data on the routes, station locations, and schedules of Madrid’s metro system. One could use the data to examine whether or not certain regions in the city lack access to public transportation."
+  },
+  {
+    "objectID": "analysis.html#ethical-soundness-1",
+    "href": "analysis.html#ethical-soundness-1",
+    "title": "Comparitive Analysis",
+    "section": "Ethical soundness",
+    "text": "Ethical soundness\nThere doesn’t appear to be any ethical concerns as it is simply public data of the city’s transportation infrastructure."
+  },
+  {
+    "objectID": "analysis.html#scope-1",
+    "href": "analysis.html#scope-1",
+    "title": "Comparitive Analysis",
+    "section": "Scope",
+    "text": "Scope\nThe dataset covers the Madrid metro network and contains text files that can be converted into vector data or directly analysed in the same manner as one would a csv. Variables include station location, fare rates, metro frequency, service times, etc. The data itself is a bit limited but it could be useful once joined with a larger dataset that consists of the city’s census data."
+  },
+  {
+    "objectID": "analysis.html#trustworthinessreputability-2",
+    "href": "analysis.html#trustworthinessreputability-2",
+    "title": "Comparitive Analysis",
+    "section": "Trustworthiness/reputability:",
+    "text": "Trustworthiness/reputability:\nData is very reputable. Data collected by the Bureau of Transportation Statistics (a federal agency), whose purpose is to collect, analyze, and share comprehensive data on transportation systems in the US, so there is unlikely to be any biases. A full methodology page is also available, explaining data collection methods, metric definitions, and other sources used."
+  },
+  {
+    "objectID": "analysis.html#degree-of-relevance-to-research-question-2",
+    "href": "analysis.html#degree-of-relevance-to-research-question-2",
+    "title": "Comparitive Analysis",
+    "section": "Degree of relevance to research question",
+    "text": "Degree of relevance to research question\nCollection methods involved a four-step GIS analysis, involving the collection of various transportation terminals, identification of what “rural America” means as well as what facilities serve those areas, as well as the total population served from those areas. While there is subjectivity in what counts as “rural America,” it is formally defined for this data so there is no vagueness surrounding the term. Variable types are vast, so the use of variables as proxies isn’t absolutely necessary, but other conclusions may be made through inference. One improvement could be the inclusion of more years’ worth of data. Currently, there is data from 2006, 2012, 2018 and 2021, but no data in the years between."
+  },
+  {
+    "objectID": "analysis.html#ethical-soundness-2",
+    "href": "analysis.html#ethical-soundness-2",
+    "title": "Comparitive Analysis",
+    "section": "Ethical soundness",
+    "text": "Ethical soundness\nThere is little to suggest much bias in this dataset. Given the reputability of the source (The Bureau of Transportation Statistics) there would be no ulterior motives (political, financial, etc.) other than to simply report on transportation statistics. Furthermore, the collection methods of the data are observational (obtained from terminals and official census reports) so presumably there would be no bias in that regard. The definition of “rural” may vary for different people, which may contribute some bias in terms of what areas count as “rural” but the criteria for this is explicitly defined in the methodology."
+  },
+  {
+    "objectID": "analysis.html#scope-2",
+    "href": "analysis.html#scope-2",
+    "title": "Comparitive Analysis",
+    "section": "Scope",
+    "text": "Scope\nEach row in this dataset represents a county for a specific year, including related data involving population, transportation access, and financial information. There are 25,141 rows in total. This dataset represents rural populations (though certain deductions of urban populations could be determined if needed). While this dataset may not explicitly include the population of everyone in America, it is most relevant to our research question because it includes transportation access across several years with potential correlated data (e.g., financial change, population change). Due to the large number of variables in this dataset, there are many other claims that could be made, such as: how access to one transportation method compares to another, how different income brackets are represented in rural areas, or how age distribution changes over time."
+  },
+  {
+    "objectID": "kristian.html",
+    "href": "kristian.html",
     "title": "Data Collection Facts Label",
     "section": "",
-    "text": "Data Source Facts Label\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSource Identity\n\n\n\n\n\n\nSource name\n\n\n2022 - 2024 NTD Annual Data - Service (by Mode and Time Period)\n\n\n\n\nDomain/topic\n\n\nPublic transit\n\n\n\n\nSource type\n\n\nGovernment dataset\n\n\n\n\n\n\n\n\n\n\n\nCollection Context\n\n\n\n\n\n\nCollector/producer\n\n\nFederal transit administration\n\n\n\n\nOriginal purpose\n\n\nPublic reporting\n\n\n\n\nCollection method\n\n\nPublic records\n\n\n\n\nRecord-creation event\n\n\nExistence of a travel service\n\n\n\n\n\n\n\n\n\n\n\nObservation and Scope\n\n\n\n\n\n\nUnit of observation\n\n\nTravel service\n\n\n\n\nPopulation or objects represented\n\n\nPublic transit vehicles\n\n\n\n\nTime period covered\n\n\n2022-2024\n\n\n\n\nGeographic area coverage\n\n\nEntire USA\n\n\n\n\n\n\n\n\n\n\n\nVariables and Data Structure\n\n\n\n\n\n\nMain variables/fields\n\n\nNTD ID, Agency, City, State, Mode\n\n\n\n\nData types included\n\n\nText, number\n\n\n\n\nDirect measurements\n\n\nNTD ID, Report Year, Type Of Service\n\n\n\n\nPossible proxy variables\n\n\nActual Vehicles Passenger Car Revenue Hours\n\n\n\n\n\n\n\n\n\n\n\nDocumentation\n\n\n\n\n\n\nDocumentation found\n\n\nMetadata, contact email, description\n\n\n\n\nStated collection details\n\n\nNot stated"
+    "text": "Data Source Facts Label\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSource Identity\n\n\n\n\n\n\nSource name\n\n\nGTFS Red Metro\n\n\n\n\nDomain/topic\n\n\nPublic Transportation\n\n\n\n\nSource type\n\n\nGTFS Schedule Dataset\n\n\n\n\n\n\n\n\n\n\n\nCollection Context\n\n\n\n\n\n\nCollector/producer\n\n\nConsorcio Regional de Transportes de Madrid\n\n\n\n\nOriginal purpose\n\n\nTo provide schedules and geographic data for public use and analysis\n\n\n\n\nCollection method\n\n\nNot explicitly stated\n\n\n\n\nRecord-creation event\n\n\nNot explicitly stated\n\n\n\n\n\n\n\n\n\n\n\nObservation and Scope\n\n\n\n\n\n\nUnit of observation\n\n\nVaries by the individual files\n\n\n\n\nPopulation or objects represented\n\n\nMetro services including the lines, stops, trips, frequencies, ect.\n\n\n\n\nTime period covered\n\n\nMay 27 2025 - May 27 2026\n\n\n\n\nGeographic area coverage\n\n\nCommunity of Madrid, Spain\n\n\n\n\n\n\n\n\n\n\n\nVariables and Data Structure\n\n\n\n\n\n\nMain variables/fields\n\n\nrout_id, route_short_name, trip_id, stop_id, stop_name, stop_lat, stop_lon, arrival_time, departure_time, service_id, ect.\n\n\n\n\nData types included\n\n\ncategorical & numeric\n\n\n\n\nDirect measurements\n\n\narival and departure times, headways, station lat/lon, ect.\n\n\n\n\nPossible proxy variables\n\n\nschedule headway, departures may account for service frequency\n\n\n\n\n\n\n\n\n\n\n\nDocumentation\n\n\n\n\n\n\nDocumentation found\n\n\nCTRM Open Data\n\n\n\n\nStated collection details\n\n\nMetro schedules and network topology"
   },
   {
     "objectID": "index.html",
@@ -32,13 +116,20 @@
     "href": "index.html#research-question",
     "title": "Investigating a Dataset’s Ingredients",
     "section": "Research Question",
-    "text": "Research Question\nHow has public access changed overtime and what factors influenced it?"
+    "text": "Research Question\nHow has public transportation access changed overtime and what factors influenced the change?"
   },
   {
-    "objectID": "kristian.html",
-    "href": "kristian.html",
+    "objectID": "anthonypalomba.html",
+    "href": "anthonypalomba.html",
     "title": "Data Collection Facts Label",
     "section": "",
-    "text": "Data Source Facts Label\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSource Identity\n\n\n\n\n\n\nSource name\n\n\nGTFS Red Metro\n\n\n\n\nDomain/topic\n\n\nPublic Transportation\n\n\n\n\nSource type\n\n\nGTFS Schedule Dataset\n\n\n\n\n\n\n\n\n\n\n\nCollection Context\n\n\n\n\n\n\nCollector/producer\n\n\nConsorcio Regional de Transportes de Madrid\n\n\n\n\nOriginal purpose\n\n\nTo provide schedules and geographic data for public use and analysis\n\n\n\n\nCollection method\n\n\nNot explicitly stated\n\n\n\n\nRecord-creation event\n\n\nNot explicitly stated\n\n\n\n\n\n\n\n\n\n\n\nObservation and Scope\n\n\n\n\n\n\nUnit of observation\n\n\nVaries by the individual files\n\n\n\n\nPopulation or objects represented\n\n\nMetro services including the lines, stops, trips, frequencies, ect.\n\n\n\n\nTime period covered\n\n\nMay 27 2025 - May 27 2026\n\n\n\n\nGeographic area coverage\n\n\nCommunity of Madrid, Spain\n\n\n\n\n\n\n\n\n\n\n\nVariables and Data Structure\n\n\n\n\n\n\nMain variables/fields\n\n\nrout_id, route_short_name, trip_id, stop_id, stop_name, stop_lat, stop_lon, arrival_time, departure_time, service_id, ect.\n\n\n\n\nData types included\n\n\ncategorical & numeric\n\n\n\n\nDirect measurements\n\n\narival and departure times, headways, station lat/lon, ect.\n\n\n\n\nPossible proxy variables\n\n\nschedule headway, departures may account for service frequency\n\n\n\n\n\n\n\n\n\n\n\nDocumentation\n\n\n\n\n\n\nDocumentation found\n\n\nCTRM Open Data\n\n\n\n\nStated collection details\n\n\nMetro schedules and network topology"
+    "text": "Data Source Facts Label\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSource Identity\n\n\n\n\n\n\nSource name\n\n\n2022 - 2024 NTD Annual Data - Service (by Mode and Time Period)\n\n\n\n\nDomain/topic\n\n\nPublic transit\n\n\n\n\nSource type\n\n\nGovernment dataset\n\n\n\n\n\n\n\n\n\n\n\nCollection Context\n\n\n\n\n\n\nCollector/producer\n\n\nFederal transit administration\n\n\n\n\nOriginal purpose\n\n\nPublic reporting\n\n\n\n\nCollection method\n\n\nPublic records\n\n\n\n\nRecord-creation event\n\n\nExistence of a travel service\n\n\n\n\n\n\n\n\n\n\n\nObservation and Scope\n\n\n\n\n\n\nUnit of observation\n\n\nTravel service\n\n\n\n\nPopulation or objects represented\n\n\nPublic transit vehicles\n\n\n\n\nTime period covered\n\n\n2022-2024\n\n\n\n\nGeographic area coverage\n\n\nEntire USA\n\n\n\n\n\n\n\n\n\n\n\nVariables and Data Structure\n\n\n\n\n\n\nMain variables/fields\n\n\nNTD ID, Agency, City, State, Mode\n\n\n\n\nData types included\n\n\nText, number\n\n\n\n\nDirect measurements\n\n\nNTD ID, Report Year, Type Of Service\n\n\n\n\nPossible proxy variables\n\n\nActual Vehicles Passenger Car Revenue Hours\n\n\n\n\n\n\n\n\n\n\n\nDocumentation\n\n\n\n\n\n\nDocumentation found\n\n\nMetadata, contact email, description\n\n\n\n\nStated collection details\n\n\nNot stated"
+  },
+  {
+    "objectID": "raf.html",
+    "href": "raf.html",
+    "title": "Data Collection Facts Label",
+    "section": "",
+    "text": "Data Source Facts Label\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSource Identity\n\n\n\n\n\n\nSource name\n\n\nAccess to Intercity Air, Bus, and Rail Transportation in Rural Areas\n\n\n\n\nDomain/topic\n\n\nPublic Transportation\n\n\n\n\nSource type\n\n\nGovernment Dataset\n\n\n\n\n\n\n\n\n\n\n\nCollection Context\n\n\n\n\n\n\nCollector/producer\n\n\nBureau of Transportation Statistics\n\n\n\n\nOriginal purpose\n\n\nPublic reporting\n\n\n\n\nCollection method\n\n\nGIS analysis using existing data from government and transportation databases\n\n\n\n\nRecord-creation event\n\n\nExistence of a county deemed “rural” by the GIS analysis\n\n\n\n\n\n\n\n\n\n\n\nObservation and Scope\n\n\n\n\n\n\nUnit of observation\n\n\nEach row represents one county and its rural public transporation access\n\n\n\n\nPopulation or objects represented\n\n\nCounties, airports, bus stops, and rail facilities\n\n\n\n\nTime period covered\n\n\n2006, 2012, 2018, and 2021\n\n\n\n\nGeographic area coverage\n\n\nRural block groups in the United States\n\n\n\n\n\n\n\n\n\n\n\nVariables and Data Structure\n\n\n\n\n\n\nMain variables/fields\n\n\nState, County, Land Area, Water Area, Population, Year, % Rural Access to Airport/Bus Stop/Rail Station\n\n\n\n\nData types included\n\n\nLocation, numerical, categorical, date, ID\n\n\n\n\nDirect measurements\n\n\nCounty population, transportation facility location, year\n\n\n\n\nPossible proxy variables\n\n\n% Rural Access to Airport/Bus Stop/Rail Station, Household income, Vehicles per household, Civilian labor force\n\n\n\n\n\n\n\n\n\n\n\nDocumentation\n\n\n\n\n\n\nDocumentation found\n\n\nMethodology, metadata (column descriptions)\n\n\n\n\nStated collection details\n\n\nAirport data gotten from FAA’s enplanement data and BTS’ Office of Airline Administration airport summary; Intercity bus stop data gotten from Greyhound, Amtrak, BTS’ June 2005 Rural Scheduled Intercity Transportation and the U.S. Rural Population report, BTS’ IPCD, and BTS’ Intercity Bus Atlas; Intercity rail facility data gotten from BTS’ Febuary 2011 U.S. Rural Population and Scheduled Intercity Transportation in 2010 report, BTS’ IPCD, BTS’ National Transportation Atlas Database, and Alaska railroad website; Population data gotten from the U.S. Census Bureau and American Community Survey"
   }
 ]
