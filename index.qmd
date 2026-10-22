@@ -4,8 +4,8 @@ title: "Investigating a Dataset's Ingredients"
 
 ## Topic Area
 
-Introduce your topic area. What did you choose, why did you choose it? 
+Our topic is public transportation. Given how prevalent and documented it is in modern society, we figured there would be extensive and reliable data to pull from to make a well-reasoned analysis.
 
 ## Research Question
 
-State your research question that you hope to answer with data. 
+How has public access changed overtime and what factors influenced it?

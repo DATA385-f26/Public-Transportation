@@ -7,7 +7,7 @@ project:
 
 website:
   page-navigation: true
-  title: "TITLE"
+  title: "Public Transportation"
   description: "Project 01: Data Collection Facts Label"
 
   navbar: 
@@ -17,18 +17,14 @@ website:
         file: index.qmd
       - text: Dataset Details
         menu:
-        - text: "Person 1"
-          href: person1.qmd
-        - text: "Kristian Meza"
+        - text: "GTFS Metro Network"
           href: kristian.qmd
         - text: "Access to Intercity Air, Bus, and Rail Transportation in Rural Areas"
           href: raf.qmd
-        - text: "Person 2"
-          href: person2.qmd
-        - text: "Anthony Palomba"
+        - text: "NTD Annual Data View - Service (by Mode)"
           href: anthonypalomba.qmd
       - text: "Comparative Analysis"
-        href: comparison.qmd
+        href: analysis.qmd
 
 format:
   html:
