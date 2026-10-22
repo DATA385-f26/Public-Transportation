@@ -1,0 +1,47 @@
+---
+title: "Comparitive Analysis"
+author: "Anthony Palomba, Kristian Meza, Rafael Wenslaff"
+format: html
+---
+
+# NTD Annual Data View - Service (by Mode)
+## Trustworthiness/reputability
+Very reputable. Data comes from a government source (NTD). Many columns are missing a detailed description and use acronyms that are not easily understood without a background in transportation research. There is an “About” section on the NTD website that provides timestamps showing when the data was collected.
+
+## Degree of relevance to research question
+Proxies would be necessary to answer the research question as there are no variables that directly apply to it. The methods of collection are various organizations’ registration with the Department of Transportation, so the data is likely very accurate.
+
+## Ethical soundness
+Unlikely for there to be any bias. It comes from a government source and displays data clearly. The large scale and generic theme of the dataset makes it more unlikely that there is any significant bias.
+
+## Scope
+One row represents the existence of a route serviced by a transportation organization. The data covers the entire mainland USA. Variables include the NTD ID, Agency, Reporter Type, Organization Type, Report Year, City, State, Mode, Mode Name, Type Of Service, and more. There are 46 columns in total.
+
+# GTFS Metro Network
+## Trustworthiness/reputability
+The data was collected by the CRTM, an autonomous body created by the Spanish government which is responsible for coordinating the public transportation services within Madrid. As the dataset was provided directly by the Spanish government, it should be considered reputable and trustworthy.
+
+## Degree of relevance to research question
+It provides data on the routes, station locations, and schedules of Madrid’s metro system. One could use the data to examine whether or not certain regions in the city lack access to public transportation.
+
+## Ethical soundness
+There doesn’t appear to be any ethical concerns as it is simply public data of the city’s transportation infrastructure.
+
+## Scope
+The dataset covers the Madrid metro network and contains text files that can be converted into vector data or directly analysed in the same manner as one would a csv. Variables include station location, fare rates, metro frequency, service times, etc. The data itself is a bit limited but it could be useful once joined with a larger dataset that consists of the city’s census data.
+
+# Access to Intercity Air, Bus, and Rail Transportation in Rural Areas
+
+## Trustworthiness/reputability:
+Data is very reputable. Data collected by the Bureau of Transportation Statistics (a federal agency), whose purpose is to collect, analyze, and share comprehensive data on transportation systems in the US, so there is unlikely to be any biases. A full methodology page is also available, explaining data collection methods, metric definitions, and other sources used.
+
+## Degree of relevance to research question
+Collection methods involved a four-step GIS analysis, involving the collection of various transportation terminals, identification of what “rural America” means as well as what facilities serve those areas, as well as the total population served from those areas. While there is subjectivity in what counts as “rural America,” it is formally defined for this data so there is no vagueness surrounding the term. Variable types are vast, so the use of variables as proxies isn’t absolutely necessary, but other conclusions may be made through inference. One improvement could be the inclusion of more years’ worth of data. Currently, there is data from 2006, 2012, 2018 and 2021, but no data in the years between.
+
+## Ethical soundness
+There is little to suggest much bias in this dataset. Given the reputability of the source (The Bureau of Transportation Statistics) there would be no ulterior motives (political, financial, etc.) other than to simply report on transportation statistics. Furthermore, the collection methods of the data are observational (obtained from terminals and official census reports) so presumably there would be no bias in that regard. The definition of “rural” may vary for different people, which may contribute some bias in terms of what areas count as “rural” but the criteria for this is explicitly defined in the methodology. 
+
+## Scope
+Each row in this dataset represents a county for a specific year, including related data involving population, transportation access, and financial information. There are 25,141 rows in total. This dataset represents rural populations (though certain deductions of urban populations could be determined if needed). While this dataset may not explicitly include the population of everyone in America, it is most relevant to our research question because it includes transportation access across several years with potential correlated data (e.g., financial change, population change). Due to the large number of variables in this dataset, there are many other claims that could be made, such as: how access to one transportation method compares to another, how different income brackets are represented in rural areas, or how age distribution changes over time.
+
+
